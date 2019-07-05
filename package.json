@@ -1,0 +1,28 @@
+{
+    "name": "starter-kit-nodejs-express-assistant-discovery-cloudant",
+    "description": "simple template code start for backend with nodejs, express, watson assistant, watson discovery and cloudant on ibm cloud",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "@cloudant/cloudant": "^4.1.1",
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.5",
+        "express": "^4.16.1",
+        "ibm-cloud-env": "^0.2.6",
+        "ibm-watson": "^4.2.1",
+        "morgan": "^1.9.1"
+    },
+    "engines": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+    },
+    "author": "Carlos Trinidad",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}

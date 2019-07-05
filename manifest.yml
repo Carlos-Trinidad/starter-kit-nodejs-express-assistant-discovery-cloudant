@@ -1,0 +1,11 @@
+applications:
+  - name: '[ADD_HERE_NAME_OF_PROJECT]'
+    memory: 256M
+    instances: 1
+    services:
+      - ADD_HERE_ASSISTANT_INSTANCE_NAME
+      - ADD_HERE_DISCOVERY_INSTANCE_NAME
+      - ADD_HERE_CLOUDANT_INSTANCE_NAME
+    env:
+      assistant_id: '[ADD_HERE_ASSISTANT_ID]'
+      cloudant_database: '[ADD_HERE_DATABASE_NAME]'

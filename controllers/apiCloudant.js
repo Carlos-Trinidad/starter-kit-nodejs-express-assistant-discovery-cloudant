@@ -15,6 +15,13 @@ let saveQuery = async (queryParams, resultDiscovery) => {
         output: resultDiscovery
     }
 
+   /*  let resultInsert = await DB.insert(queryToSave);
+    let response = {
+        data: resultInsert,
+        statusCode: 200
+    };
+    return response; */
+
     DB.insert(queryToSave)
         .then(result => {
             let response = {
